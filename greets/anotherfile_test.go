@@ -5,7 +5,7 @@ import (
 )
 
 func TestPublicFunctionSuccess(t *testing.T) {
-	// invole the function with a custom value
+	// invoke the function with a custom value
 	retValue := PublicFunctionSayGoodbye("fake name")
 	// verify the response and fail accordingly
 	if retValue != "Goodbye fake name!" {
@@ -14,7 +14,7 @@ func TestPublicFunctionSuccess(t *testing.T) {
 }
 
 func TestPublicFunctionFailure(t *testing.T) {
-	// invole the function with a custom value
+	// invoke the function with a custom value
 	retValue := PublicFunctionSayGoodbye("fake name")
 	// THIS WILL FAIL
 	if retValue != "this fails intentionally" {

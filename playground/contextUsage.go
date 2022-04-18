@@ -68,7 +68,7 @@ func SimpleContextExample() {
 	fmt.Println("Create a child value context from the with-cancel context")
 	childValueCtx := context.WithValue(childCancelContext, myKey, "myValue")
 
-	fmt.Println("Invoke the function using the child value context and expect the value to printed")
+	fmt.Println("Invoke the function using the child value context and expect the value to be printed")
 	functionUsingContext(childValueCtx, myKey)
 
 	time.Sleep(time.Second)
@@ -117,6 +117,6 @@ func ComplexContextExample() {
 	go loopWhileContextAliveExtractKey(firstChildValueCtx, nameKey)
 	go loopWhileContextAliveExtractKey(secondChildValueCtx, nameKey)
 
-	fmt.Println("Sleep for 5 seconds to the operation will have its 4 seconds to be over")
+	fmt.Println("Sleep for 5 seconds so the operation will have its 4 seconds to complete")
 	time.Sleep(5 * time.Second)
 }

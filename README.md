@@ -1,9 +1,7 @@
-# Playground for starting Go development
+# Playground for starting with Go development
 
 Testing, functions, receiver functions, and visibility are demonstrated in the [greets package][0].</br>
-Go through the code files and follow the comments and log prints.
-
-> Missing playgrounds for the basic stuff like types, arrays, slices, maps.
+Go through the code files and follow the comments and log printing.
 
 ## Playgrounds
 
@@ -20,11 +18,16 @@ Go through the code files and follow the comments and log prints.
   - [Complex Context Usage][8]
 - Mix
   - [Two Goroutines playing ping pong with a bidirectional Channel and manged by a Context][9]
-  - [Two Goroutines playing ping pong with a two one-sided Channels and manged by a Context][10]
+  - [Two Goroutines playing ping pong with two one-sided Channels and manged by a Context][10]
 - Various
   - [A partial implantation of Java's AtomicInteger in Go][11]
   - [A demo for using the AtomicInteger][12]
   - [Updating the AtomicInteger concurrently with two Goroutines][13]
+
+## TODO
+
+- Add playgrounds for stuff like types, interfaces, generics, readers, tree, errors, arrays, slices, and maps.
+- Add a _Links_ section with useful links for _Go_ development.
 
 <!-- REFS -->
 [0]: https://github.com/TomerFi/lets-go-go/tree/main/greets

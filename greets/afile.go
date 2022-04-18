@@ -19,5 +19,5 @@ func (g *Greeter) Greet(name string) string {
 // takes a string name and return a string initialized in the function signature
 func privateGreetAgainFunction(greeting string, name string) (retValue string) {
 	retValue = fmt.Sprintf("I said %s %s??", greeting, name)
-	return retValue
+	return // named return value, the return value is specify in the return section (retValue string)
 }
