@@ -39,7 +39,7 @@ func main() {
 	// basic
 	playground.FunctionsVsReceiverFunctions()
 	playground.ReferenceVsValues()
-	// concurency
+	// concurrency
 	playground.RunDeferAndGoroutine()
 	playground.RunDeferAndGoroutineWithWaitGroup()
 	playground.RunDeferAndGoroutineWithChannel()
