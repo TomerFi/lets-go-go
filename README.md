@@ -1,7 +1,6 @@
 # Playground for starting Go development
 
-Testing, public/private functions, and receiver functions are demonstrated in the [greets package][0].</br>
-
+Testing, functions, receiver functions, and visibility are demonstrated in the [greets package][0].</br>
 Go through the code files and follow the comments and log prints.
 
 > Missing playgrounds for the basic stuff like types, arrays, slices, maps.
