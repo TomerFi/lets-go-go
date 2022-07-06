@@ -30,7 +30,8 @@ Clone this repo, step inside it's root, and type `go test -v greets/*.go`,</br>
 A test will fail, you'll have to fix it (don't worry it's easy), fix it and run the tests again.
 
 You can run the various playgrounds, type `go run .`,</br>
-this will execute the `main` function inside [main.go][14].</br>
+this will execute the `main` function inside [main.go][14].
+
 You can also build the program, type `go build .`,</br>
 this will build a binary file called `lets-go-go` that can be run on the same architecture as it was created on,</br>
 executing it will result with the execution of the `main` function inside [main.go][14].
