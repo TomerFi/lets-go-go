@@ -24,6 +24,17 @@ Go through the code files and follow the comments and log printing.
   - [A demo for using the AtomicInteger][12]
   - [Updating the AtomicInteger concurrently with two Goroutines][13]
 
+## What's next
+
+Clone this repo, step inside it's root, and type `go test -v greets/*.go`,</br>
+A test will fail, you'll have to fix it (don't worry it's easy), fix it and run the tests again.
+
+You can run the various playgrounds, type `go run .`,</br>
+this will execute the `main` function inside [main.go][14].</br>
+You can also build the program, type `go build .`,</br>
+this will build a binary file called `lets-go-go` that can be run on the same architecture as it was created on,</br>
+executing it will result with the execution of the `main` function inside [main.go][14].
+
 ## TODO
 
 - Add playgrounds for stuff like types, interfaces, generics, readers, tree, errors, arrays, slices, and maps.
@@ -44,3 +55,4 @@ Go through the code files and follow the comments and log printing.
 [11]: https://github.com/TomerFi/lets-go-go/blob/main/playground/atomicInteger.go#L30
 [12]: https://github.com/TomerFi/lets-go-go/blob/main/playground/atomicInteger.go#L116
 [13]: https://github.com/TomerFi/lets-go-go/blob/main/playground/atomicInteger.go#L162
+[14]: https://github.com/TomerFi/lets-go-go/blob/main/main.go#L38

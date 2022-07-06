@@ -1,6 +1,6 @@
 package playground
 
-// and import list instead of multiple imports
+// an import list instead of multiple imports
 import (
 	"fmt"               // this is a module provided by go
 	"lets-go-go/greets" // note the module name prior to the package name instead of just the relative package name
